@@ -1,0 +1,103 @@
+body {
+	background: #f0e2c9 url('/images/bg.jpg') repeat-y 50% top;
+	color: #000;
+}
+
+.menu {
+	display:block;
+	width: 100px;
+	height: 25px;
+}
+
+.menu:hover {
+	background-position: 0 -25px;
+}
+
+.menu span {
+	display: none;
+}
+
+.purpose {
+	background: url("/images/menu/purpose.png") no-repeat 0 0;
+}
+
+.pedalers {
+	background: url("/images/menu/pedalers.png") no-repeat 0 0;
+}
+
+.photos {
+	background: url("/images/menu/photos.png") no-repeat 0 0;
+}
+
+.blog {
+	background: url("/images/menu/blog.png") no-repeat 0 0;
+}
+
+.partners {
+	background: url("/images/menu/partners.png") no-repeat 0 0;
+}
+
+.store {
+	background: url("/images/menu/store.png") no-repeat 0 0;
+}
+
+.press {
+	background: url("/images/menu/press.png") no-repeat 0 0;
+}
+
+#content_top {
+	display: block;
+	height: 49px;
+	background: transparent url('/images/content_top.png') no-repeat top center;
+}
+
+#content {
+	font-family: Georgia, serif;
+	background: transparent url('/images/content_bg.png') repeat-y top center;
+	padding-bottom: 50px;
+}
+
+#content p {
+	text-align: justify;
+	line-height: 2em;
+}
+
+#content h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+	text-decoration: none;
+	color: #000;
+}
+
+#content h1 {
+	display: block;
+	height: 50px;
+	width: 720px;
+	background: transparent url('/images/hr.png') no-repeat 0 25px;
+}
+
+#content .center {
+	text-align: center;
+}
+
+#content img {
+	border: 1px solid #000;	
+}
+
+#content img.no-border {
+	border: 0px;
+}
+
+#content td {
+	padding: 10px;
+	vertical-align: top;
+}
+
+.float-left {
+  float: left;
+  padding: 5px 5px 5px 0px;
+}
+
+.float-right {
+  float: right;
+  padding: 5px 5px 5px 0px;
+  margin-left: 5px;
+}

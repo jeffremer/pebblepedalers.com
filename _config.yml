@@ -1,0 +1,19 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Pebble Pedalers
+email: seth@pebblepedalers.com
+description: > # this means to ignore newlines until "baseurl:"
+  In July of 2009, the Pebble Pedalers, a two-man team of conservation-minded cyclists began a 17,000-mile journey to raise awareness of and garner support for protecting the Bristol Bay Watershed from the largest proposed open pit mine in North America. Riding through 13 countries—from Prudhoe Bay, the northernmost point accessible by road in Alaska, to Tierra del Fuego, the southernmost tip of Argentina—we work towards preservation, protection and the restoration of watersheds throughout the Americas in partnership with Trout Unlimited. Please join our fight by educating yourselves on this critical issue and taking action with both pen and pocketbook."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://pebblepedalers.com" # the base hostname & protocol for your site
+twitter_username: pebblepedalers
+github_username:  jeffremer
+
+# Build settings
+markdown: kramdown
